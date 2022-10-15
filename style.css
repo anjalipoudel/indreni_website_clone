@@ -7,10 +7,12 @@
 
 .topbar {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-items: center;
+  
   height: 50px;
   width: 100%;
-  background-color: #024f87;
+  background: linear-gradient(to bottom, #33ccff 0%, #451071 100%);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -64,7 +66,7 @@
 }
 
 .nav-apply-button {
-  background-color: #AD070E;
+  background-color: #3fcff0;
   padding: 9px;
   border: none;
   color: white;
@@ -80,7 +82,9 @@
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
+  font-family: Georgia, Times, serif;
+  font-size: 20px;
 
 }
 
@@ -113,6 +117,7 @@
 .description {
   font-family: "Helvetica Neue", Helvetica, Arial;
   padding: 25px;
+  font-size: 20px;
 }
 
 .footer {
@@ -120,7 +125,7 @@
   left: 0;
   bottom: 0; */
   width: 100%;
-  background-color: #024f87;
+  background-color: #491159;
   color: white;
   text-align: center;
   padding: 10px 0px;
@@ -200,7 +205,7 @@ input[type=password] {
 .footer-icons {
   background: white;
   padding: 5px;
-  color: #024f87;
+  color: #026887;
 }
 
 .breadcrumb {
